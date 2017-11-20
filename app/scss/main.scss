@@ -1,0 +1,54 @@
+@import "params.scss";
+@import "mixins.scss";
+@import "fonts.scss";
+
+.wrapper{
+  width: 250px;
+  display: flex;
+  justify-content:center;
+  font-family:'Patua One', cursive;
+  text-transform: uppercase;
+  color:#fff;
+  background: #EB6AA3;
+  &__container{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  &__plug-name{
+    @include flex-center();
+    font-size:26px;
+    color:#007929;
+    margin-bottom: 16px;
+    //background: #EB6AA3;
+    span{
+
+
+    }
+  }
+  &__functional{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+}
+
+body{
+
+  margin: 0;
+}
+
+#expression{
+  font-family:'Patua One', cursive;
+  font-size:26px;
+  width: 80%;
+}
+
+#result{
+  font-size:26px;
+  text-align: center;
+}

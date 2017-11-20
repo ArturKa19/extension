@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Smart Calculator",
+  "description": "This's irreplaceable extension",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_title": "Open calculator",
+    "default_icon": "app/img/calc-ico.png",
+    "default_popup": "app/index.html"
+  },
+
+  "permissions": [
+    "activeTab"
+  ]
+}
